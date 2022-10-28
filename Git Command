@@ -1,0 +1,24 @@
+git status
+git init
+git config --global user.name ""
+git config --global user.email ""
+git config  user.name "" //verify name
+git config  user.email ""//verify email
+git add .  // all file add
+git add <filename>
+git commit -m "message"
+git branch 
+git log
+git remote add origin <url paste>
+git push -u origin master
+git checkout -b "branchname"
+git checkout "branchname"
+git checkout -d "branchname"
+git reset <filename>
+git checkout --<filename>
+git pull "branchname"
+git diff 
+git diff <base> <filename>
+git diff <file1> <file2>
+git clone <path to repository https wala>
+
