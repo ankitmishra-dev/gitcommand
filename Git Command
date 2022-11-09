@@ -22,3 +22,103 @@ git diff <base> <filename>
 git diff <file1> <file2>
 git clone <path to repository https wala>
 
+
+
+new git by CodeWithHarry
+1. git status
+
+2. git init	// rm -rf .git (.GIT CAN BE REPLACED BY ANY FILE NAME TO DELETE THAT PARTICULAR FILE ---- will delete .git folder so it will stop git tracking and delete all your changes related to git )
+
+3. git config --global user.name ""
+
+4. git config --global user.email ""
+
+5. git config --global list
+
+6. git config  user.name "" 		//verify name
+
+7. git config  user.email ""		//verify email
+
+8. git add .  		// all file add
+
+9. git add <filename>  // git restore <filename> to unstage what is added for commit
+
+10. git commit -m "message"
+
+11. git branch 
+
+12. git log
+
+13. git remote add origin <url paste>
+
+14. git push -u origin master
+
+15. git checkout -b "branchname"
+
+16. git checkout "branchname"
+
+17. git checkout -d "branchname"    // to delete branch but if not merged it will show error but if you still want to delete that branch use D instead of small d
+
+18. git reset <filename>
+
+19. git checkout --<filename>
+
+20. git pull "branchname"
+
+21. git diff 
+
+22. git diff <base> <filename>
+
+23. git diff <file1> <file2>
+
+24. git clone <path to repository https wala>
+
+25. Note: .gitignore file inside the folder is created to ignore various direc and files
+
+    blank folder ko git ignore krta hai
+	.gitignore me kya kya daale n how
+	aman.log //to ignore aman.log file only
+	*.log //to ignore all file with .log extension
+	dir/    // to ignore dir folder itself and also content inside it
+	/dir/   // sirf outer dir folder untracked hoga aur kisi ke andar agar dir folder bana hai to wo track hoga isse
+	
+26 . git diff 		//compare staging area and working directory
+(Like if you staged 1 file by adding it and you are about to commit it so if you modify that file so it will be working area and staged same file will be staging area so git diff will compare these two file about what changes have been made)
+
+27. git diff --staged //(compare staging area with previous commit)
+
+28. git commit -a -m "Commit message"  // Here only tracked modified file which are previously added and commited will be directly go into commit and not for the file which are not being tracked
+
+29. git rm <file name>  // to remove file and staged it
+
+30. git mv <file.txt> <newfile.txt>	// to rename file.txt to newfile.txt
+
+31. git rm --cached abc.txt  // this will stop tracking file which was being tracked then after only add this file to gitignore
+
+32. git log // log of all commit // type q to quit
+
+33. git log -p  // it will show commit with changes of what all line and by whoom
+
+34. git log -p -n  // n is th integer to see that number of commit in detail
+
+35. git log --stat  // short me all commit ka details
+
+36. git log --pretty=oneline  // one line all commit message (oneline can be replace by word SHORT or FULL for same)
+
+37.  Note: Author is one who created the file first and commiter is who chaneges in that file
+
+38. git log --since=2days
+    git log --since=weeks
+    git log --since=months
+    git log --since=years
+
+39. git checkout -- <filename> 		// to restore modification back
+  or  git checkout -f 			//for all changes revert back 
+
+40. git branch -v   //last commit of all branch
+
+41. git branch --merged 		//list all merged branch
+    git branch --no-merged		//list all non-merged branch
+
+42. git push -d origin <branchname>     // to delete branches active on github
+    git push origin bugfix:newbugfix     // it will push the content from bugfix branch into github on one new branch named as newbranch.
