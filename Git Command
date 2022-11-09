@@ -122,3 +122,6 @@ new git by CodeWithHarry
 
 42. git push -d origin <branchname>     // to delete branches active on github
     git push origin bugfix:newbugfix     // it will push the content from bugfix branch into github on one new branch named as newbranch.
+    
+    
+43. 43. git pull origin master 		// to pull commit done from git hub website and also done by anyone on remote repository
