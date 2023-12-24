@@ -1,3 +1,4 @@
+git config --global init.defaultBranch main  //Configure git to make default branch as main (remove just main to see what's yours)
 git status
 git init
 git config --global user.name ""
