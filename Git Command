@@ -11,6 +11,7 @@ git commit -m "message"
 git branch 
 git log
 git remote add origin <url paste>
+git remote -v // to check remote directory fetch and pull
 git push -u origin master
 git checkout -b "branchname"
 git checkout "branchname"
