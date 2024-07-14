@@ -1,3 +1,9 @@
+git remote set-url origin https://ankitmishra-dev@github.com/ankitmishra-dev/php-basics-app.git
+repo to be set in vs-code as we might have authenticated our github via some other git username
+earlier i had this set
+git remote set-url origin https://ankitmishra-1@github.com/Fyntune/api.git
+
+
 git config --global init.defaultBranch main  //Configure git to make default branch as main (remove just main to see what's yours)
 git status
 git init
