@@ -14,7 +14,7 @@ This README includes all the essential Git commands you might need while working
 8. [Working with Gitignore](#working-with-gitignore)
 9. [Advanced Git Operations](#advanced-git-operations)
 10. [Additional Resources](#additional-resources)
-11. [Commands For New And Existing Repositories](commands-for-new-and-existing-repositories)
+11. [Commands for New and Existing Repositories](#commands-for-new-and-existing-repositories)
 
 ---
 
