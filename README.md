@@ -143,6 +143,7 @@ Create a `.gitignore` file in the root of your repository to specify which files
 ### Examples:
 
 ```txt
+
 # Ignore all .log files
 *.log
 
@@ -154,23 +155,28 @@ dir/
 
 # Ignore only the outer dir folder but track inner ones
 /dir/
+
 ```
 
 ## **Advanced Git Operations**
 
 ```bash
+
 git revert <commit>          # Create a new commit that reverts a previous commit
 git revert --no-commit <commit> # Revert a commit without automatically committing the changes
 git reset --soft <commit>    # Reset to a specific commit but keep changes in the working directory
+git reset --hard <commit>    # Reset to a specific commit but dont leaves changes in working directory
 git diff                     # Compare changes in the working directory and the staging area
 git diff --staged            # Compare the staging area with the last commit
 git diff <base> <file>       # Compare specific changes between a file and the base
 git log --since=2days        # View commits since 2 days ago
+
 ```
 
 ## **Commands For New And Existing Repositories**
 
 ```bash
+
 # If the repo is created directly from GitHub (e.g., https://github.com/ankitmishra-dev/build-something.git):
 
 git clone https://github.com/ankitmishra-dev/build-something.git  # Clone the repository to your local machine
