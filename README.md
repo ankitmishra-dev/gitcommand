@@ -111,6 +111,7 @@ git fetch origin              # Fetch the latest changes without merging
 git reset --hard origin/master # Reset local branch to match remote
 
 git push --set-upstream origin {origin-branch-to-track} # no need to do this seprately if we are using -u identifier while pushing
+git push -u origin HEAD # Head means the branch where I am currently at, from next time just do the gitp pull and push
 
 
 ```
