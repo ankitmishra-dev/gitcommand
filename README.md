@@ -110,6 +110,9 @@ git pull origin <branch>      # Pull changes from the remote repository
 git fetch origin              # Fetch the latest changes without merging
 git reset --hard origin/master # Reset local branch to match remote
 
+git push --set-upstream origin {origin-branch-to-track} # no need to do this seprately if we are using -u identifier while pushing
+
+
 ```
 
 ## **File Management**
